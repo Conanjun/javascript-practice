@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html"; charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles/layout.css" media="screen">
+</head>
+
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li> <a href="images/Chrysanthemum.jpg" title="Chrysanthemum" onclick="showPic(this);return false">Chrysanthemum</a> </li>
+        <li> <a href="images/Desert.jpg" title="Desert" onclick="showPic(this);return false">Desert</a> </li>
+        <li> <a href="images/Hydrangeas.jpg" title="Hydrangeas" onclick="showPic(this);return false">Hydrangeas</a> </li>
+        <li> <a href="images/Jellyfish.jpg" title="Jellyfish" onclick="showPic(this);return false">Jellyfish</a> </li>
+    </ul>
+    <img id="placeholder" src="images/Koala.jpg" alt="my image gallery" />
+    <p id="description">Image Description</p>
+    <script type="text/javascript" src="scripts/showPic.js">
+    </script>
+</body>
+
+</html>
